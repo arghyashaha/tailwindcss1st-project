@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .caption {
+    @apply bg-black uppercase text-white px-1.5 py-2 text-xs;
+  }
+  .news {
+    @apply flex gap-4 border border-[#DDE2E5] border-[1px] p-2 hover:scale-105 transition-all duration-300 cursor-pointer mb-4;
+  }
+  .f_caption {
+    @apply bg-[#5677AC26] py-1 px-2 text-black font-semibold;
+  }
+  .news_head {
+    @apply text-center rounded-full bg-[#E6EBF3] px-4 py-2 w-[400px] my-3 ml-8 hover:scale-105 cursor-pointer translate-x-1 transition-all duration-300;
+  }
+}
